@@ -105,12 +105,12 @@ for yr in range(1970,2021):
         yardsWinList.append(txt)   
         
      #Getting "TOW" column
-    homeTurnoverList =[] 
-    homeTO= soup.findAll(
+    winnerTurnoverList =[] 
+    winnerTO= soup.findAll(
        "td", {"data-stat": "to_win"})
-    for tag in homeTO:
+    for tag in winnerTO:
         txt= tag.text;
-        homeTurnoverList.append(txt) 
+        winnerTurnoverList.append(txt) 
         
     #Getting "yards_lose" column
     yardsLoseList =[] 
@@ -121,12 +121,12 @@ for yr in range(1970,2021):
         yardsLoseList.append(txt)   
         
   #Getting "TOL" column
-    awayTurnoverList =[] 
-    awayTO= soup.findAll(
-       "td", {"data-stat": "to_win"})
-    for tag in awayTO:
+    loserTurnoverList =[] 
+    loserTO= soup.findAll(
+       "td", {"data-stat": "to_lose"})
+    for tag in loserTO:
         txt= tag.text;
-        awayTurnoverList.append(txt)  
+        loserTurnoverList.append(txt)  
 
     header= ['Season', 'Week', 'Day', 'Date', 'Time','Winner/Tie', 'Location', 'Loser/Tie', 'Points_Winner','Points_Loser', 'Yards_Winner', 'Turnover_Winner', 'Yards_Loser','Turnover_Loser' ]
     with open('nflFullGameLog.csv','a') as file:
@@ -136,7 +136,7 @@ for yr in range(1970,2021):
                 writer.writerow(header)
                 headerAdded= True
             for i in range(len(datesList)):    
-                myRow= [ yr, weeksList[i], dayList[i], datesList[i],startList[i],winningTeamsList[i],locationList[i],losingTeamsList[i],ptsWinnerList[i],ptsLoserList[i],yardsWinList[i], homeTurnoverList[i],yardsLoseList[i], awayTurnoverList[i] ]
+                myRow= [ yr, weeksList[i], dayList[i], datesList[i],startList[i],winningTeamsList[i],locationList[i],losingTeamsList[i],ptsWinnerList[i],ptsLoserList[i],yardsWinList[i], winnerTurnoverList[i],yardsLoseList[i], loserTurnoverList[i] ]
                 writer.writerow(myRow)
 
 #df= pd.read_csv('nflGameLog2010.csv') #reading in csv
