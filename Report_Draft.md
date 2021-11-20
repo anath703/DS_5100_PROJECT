@@ -1,1 +1,13 @@
-https://docs.google.com/document/d/1Fr3OvZOb81Y4c6DSmiqxHS1KwmtxesR0Am5mcG4YBNU/edit
+Introduction: Describe your project scenario
+
+The Data: Describe your data set and its significance. 
+
+Experimental Design: Describe briefly your process
+
+Beyond the original specifications: Highlight clearly what things you did that went beyond the original specifications. 
+
+Results: Display and discuss the results.
+
+Testing: Describe what testing you did. Describe the unit tests that you wrote.
+
+Conclusions: 
