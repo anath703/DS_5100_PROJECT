@@ -25,8 +25,8 @@
 ## Results: Display and discuss the results.
 
 * Include visualizations/breakdowns of home field advantage across the years. 
- ![](avg_homefield_adv.png)
- ![](box_dist_point_diff.png)
+*![](avg_homefield_adv.png)
+*![](box_dist_point_diff.png)
 
 ## Testing: Describe what testing you did. Describe the unit tests that you wrote.
 
