@@ -1,0 +1,256 @@
+Week,Home,Away,Conditions,Temperature,Wind
+1,Texans ,Chiefs ,Ncloudy ,58f Overcast ,6m NNE 
+1,Eagles ,Washington ,Partly-cloudy-day ,76f Partly Cloudy ,4m S 
+1,Dolphins ,Patriots ,Clear-day ,73f Clear ,6m S 
+1,Packers ,Vikings ,Dome ,DOME ,2m SW 
+1,Colts ,Jaguars ,Partly-cloudy-day ,86f Humid and Mostly Cloudy ,8m ESE 
+1,Bears ,Lions ,Dome ,DOME ,11m W 
+1,Raiders ,Panthers ,Clear-day ,79f Clear ,3m NE 
+1,Jets ,Bills ,Cloudy ,65f Overcast ,12m SSW 
+1,Browns ,Ravens ,Partly-cloudy-day ,75f Partly Cloudy ,5m SSE 
+1,Seahawks ,Falcons ,Dome ,DOME ,3m ESE 
+1,Chargers ,Bengals ,Partly-cloudy-day ,83f Mostly Cloudy ,4m WNW 
+1,Cardinals ,49ers ,Clear-day ,71f Clear ,6m NW 
+1,Buccaneers ,Saints ,Dome ,DOME ,10m ENE 
+1,Cowboys ,Rams ,Dome ,DOME ,7m W 
+1,Steelers ,Giants ,Nclear-night ,70f Clear ,10m NNW 
+1,Titans ,Broncos ,Nfog ,78f Foggy ,7m NE 
+2,Bengals ,Browns ,Nclear-night ,64f Clear ,6m NNE 
+2,Jaguars ,Titans ,Clear-day ,73f Clear ,5m ENE 
+2,Panthers ,Buccaneers ,Partly-cloudy-day ,87f Humid and Mostly Cloudy ,14m NE 
+2,Broncos ,Steelers ,Clear-day ,64f Clear ,2m ESE 
+2,Rams ,Eagles ,Clear-day ,62f Clear ,8m NE 
+2,49ers ,Jets ,Clear-day ,61f Clear ,9m NE 
+2,Bills ,Dolphins ,Partly-cloudy-day ,89f Humid and Partly Cloudy ,7m ESE 
+2,Vikings ,Colts ,Dome ,DOME ,10m E 
+2,Lions ,Packers ,Clear-day ,67f Clear ,11m S 
+2,Falcons ,Cowboys ,Clear-day ,73f Clear ,7m NE 
+2,Giants ,Bears ,Clear-day ,65f Clear ,9m SE 
+2,Washington ,Cardinals ,Dome ,DOME ,3m ESE 
+2,Chiefs ,Chargers ,Dome ,DOME ,6m WSW 
+2,Ravens ,Texans ,Rain ,74f Rain ,15m NNE 
+2,Patriots ,Seahawks ,Npartly-cloudy-day ,68f Partly Cloudy ,3m WNW 
+2,Saints ,Raiders ,Dome ,DOME ,13m SSE 
+3,Texans ,Steelers ,Clear-day ,76f Clear ,3m WSW 
+3,Bengals ,Eagles ,Partly-cloudy-day ,76f Mostly Cloudy ,3m ESE 
+3,49ers ,Giants ,Partly-cloudy-day ,77f Partly Cloudy ,4m SSE 
+3,Raiders ,Patriots ,Partly-cloudy-day ,76f Mostly Cloudy ,7m S 
+3,Titans ,Vikings ,Dome ,DOME ,11m W 
+3,Washington ,Browns ,Clear-day ,77f Clear ,13m SSW 
+3,Rams ,Bills ,Clear-day ,75f Clear ,13m SSW 
+3,Bears ,Falcons ,Dome ,DOME ,3m SSW 
+3,Panthers ,Chargers ,Dome ,DOME ,5m SW 
+3,Jets ,Colts ,Dome ,DOME ,10m SSW 
+3,Cowboys ,Seahawks ,Clear-day ,64f Clear ,3m N 
+3,Buccaneers ,Broncos ,Fog ,54f Foggy ,4m N 
+3,Lions ,Cardinals ,Dome ,DOME ,4m SW 
+3,Packers ,Saints ,Dome ,DOME ,5m SE 
+3,Chiefs ,Ravens ,Nclear-night ,72f Clear ,8m SSE 
+4,Broncos ,Jets ,Npartly-cloudy-night ,65f Mostly Cloudy ,4m SW 
+4,Ravens ,Washington ,Clear-day ,66f Clear ,4m ENE 
+4,Chargers ,Buccaneers ,Cloudy ,75f Humid and Overcast ,7m NNE 
+4,Seahawks ,Dolphins ,Partly-cloudy-day ,86f Humid and Mostly Cloudy ,13m SE 
+4,Vikings ,Texans ,Clear-day ,79f Clear ,2m NNE 
+4,Saints ,Lions ,Dome ,DOME ,5m SW 
+4,Browns ,Cowboys ,Clear-day ,73f Clear ,11m NE 
+4,Jaguars ,Bengals ,Partly-cloudy-day ,66f Partly Cloudy ,8m SW 
+4,Colts ,Bears ,Partly-cloudy-day ,49f Partly Cloudy ,12m NNW 
+4,Cardinals ,Panthers ,Clear-day ,65f Clear ,5m NE 
+4,Giants ,Rams ,Dome ,DOME ,3m WSW 
+4,Bills ,Raiders ,Dome ,DOME ,4m E 
+4,Eagles ,49ers ,Nclear-day ,84f Clear ,6m NW 
+4,Patriots ,Chiefs ,Nclear-day ,70f Clear ,11m S 
+4,Falcons ,Packers ,Nclear-night ,53f Clear ,12m SSW 
+5,Buccaneers ,Bears ,Nclear-night ,57f Clear ,6m ENE 
+5,Rams ,Washington ,Rain ,70f Possible Drizzle ,3m SSE 
+5,Eagles ,Steelers ,Partly-cloudy-day ,69f Mostly Cloudy ,5m NE 
+5,Cardinals ,Jets ,Partly-cloudy-day ,65f Mostly Cloudy ,7m NE 
+5,Raiders ,Chiefs ,Clear-day ,77f Clear ,12m SSE 
+5,Jaguars ,Texans ,Clear-day ,85f Humid ,7m SW 
+5,Bengals ,Ravens ,Partly-cloudy-day ,69f Mostly Cloudy ,5m ESE 
+5,Panthers ,Falcons ,Dome ,DOME ,8m SW 
+5,Dolphins ,49ers ,Clear-day ,73f Clear ,8m NNW 
+5,Giants ,Cowboys ,Clear-day ,94f Clear ,10m S 
+5,Colts ,Browns ,Partly-cloudy-day ,63f Mostly Cloudy ,13m NE 
+5,Vikings ,Seahawks ,Nrain ,56f Drizzle ,13m S 
+5,Chargers ,Saints ,Dome ,DOME ,5m SW 
+5,Bills ,Titans ,Nclear-day ,66f Clear ,2m NNW 
+6,Broncos ,Patriots ,Partly-cloudy-day ,58f Partly Cloudy ,6m SE 
+6,Texans ,Titans ,Partly-cloudy-day ,61f Mostly Cloudy ,6m S 
+6,Browns ,Steelers ,Partly-cloudy-day ,60f Mostly Cloudy ,8m ESE 
+6,Ravens ,Eagles ,Clear-day ,64f Clear ,7m SE 
+6,Washington ,Giants ,Partly-cloudy-day ,63f Partly Cloudy ,11m SSE 
+6,Falcons ,Vikings ,Dome ,DOME ,9m WNW 
+6,Lions ,Jaguars ,Partly-cloudy-day ,79f Humid and Partly Cloudy ,9m ENE 
+6,Bengals ,Colts ,Dome ,DOME ,11m SSW 
+6,Bears ,Panthers ,Clear-day ,61f Clear ,4m NE 
+6,Jets ,Dolphins ,Partly-cloudy-day ,82f Humid and Partly Cloudy ,14m ENE 
+6,Packers ,Buccaneers ,Partly-cloudy-day ,86f Partly Cloudy ,15m NE 
+6,Rams ,49ers ,Nclear-day ,83f Clear ,6m NW 
+6,Chiefs ,Bills ,Cloudy ,50f Overcast ,3m SE 
+6,Cardinals ,Cowboys ,Nclear-night ,64f Clear ,4m NNE 
+7,Giants ,Eagles ,Npartly-cloudy-night ,68f Partly Cloudy ,3m SE 
+7,Steelers ,Titans ,Cloudy ,58f Overcast ,2m N 
+7,Cowboys ,Washington ,Cloudy ,46f Overcast ,6m NE 
+7,Bills ,Jets ,Partly-cloudy-day ,50f Partly Cloudy ,6m NE 
+7,Panthers ,Saints ,Dome ,DOME ,5m NNE 
+7,Packers ,Texans ,Partly-cloudy-day ,71f Mostly Cloudy ,5m ESE 
+7,Browns ,Bengals ,Partly-cloudy-day ,48f Mostly Cloudy ,5m ENE 
+7,Lions ,Falcons ,Dome ,DOME ,2m W 
+7,Buccaneers ,Raiders ,Dome ,DOME ,7m WNW 
+7,49ers ,Patriots ,Cloudy ,49f Overcast ,5m ENE 
+7,Chiefs ,Broncos ,Fog ,14f Foggy ,8m WNW 
+7,Jaguars ,Chargers ,Dome ,DOME ,7m WSW 
+7,Seahawks ,Cardinals ,Dome ,DOME ,11m SW 
+7,Bears ,Rams ,Dome ,DOME ,4m N 
+8,Falcons ,Panthers ,Npartly-cloudy-night ,74f Humid and Partly Cloudy ,7m S 
+8,Steelers ,Ravens ,Rain ,51f Light Rain ,10m SSW 
+8,Rams ,Dolphins ,Partly-cloudy-day ,85f Humid and Partly Cloudy ,9m E 
+8,Jets ,Chiefs ,Clear-day ,46f Clear ,12m NNW 
+8,Vikings ,Packers ,Partly-cloudy-day ,33f Mostly Cloudy ,24m NW 
+8,Colts ,Lions ,Dome ,DOME ,21m NW 
+8,Raiders ,Browns ,Wind ,47f Windy and Overcast ,26m NW 
+8,Titans ,Bengals ,Clear-day ,49f Clear ,18m W 
+8,Patriots ,Bills ,Rain ,42f Rain ,17m WSW 
+8,Chargers ,Broncos ,Fog ,66f Foggy ,7m WNW 
+8,49ers ,Seahawks ,Clear-day ,55f Clear ,3m N 
+8,Saints ,Bears ,Partly-cloudy-day ,38f Partly Cloudy ,18m NW 
+8,Cowboys ,Eagles ,Npartly-cloudy-night ,50f Mostly Cloudy ,11m NW 
+8,Buccaneers ,Giants ,Nclear-night ,39f Clear ,8m W 
+9,Packers ,49ers ,Npartly-cloudy-day ,76f Partly Cloudy ,4m NW 
+9,Giants ,Washington ,Clear-day ,68f Clear ,1m SSW 
+9,Bears ,Titans ,Clear-day ,74f Clear ,7m ESE 
+9,Lions ,Vikings ,Dome ,DOME ,14m S 
+9,Panthers ,Chiefs ,Partly-cloudy-day ,68f Partly Cloudy ,15m S 
+9,Texans ,Jaguars ,Partly-cloudy-day ,80f Mostly Cloudy ,15m ENE 
+9,Ravens ,Colts ,Dome ,DOME ,6m SSE 
+9,Seahawks ,Bills ,Clear-day ,65f Clear ,3m SW 
+9,Broncos ,Falcons ,Dome ,DOME ,11m E 
+9,Raiders ,Chargers ,Dome ,DOME ,11m SW 
+9,Steelers ,Cowboys ,Partly-cloudy-day ,73f Partly Cloudy ,12m SSE 
+9,Dolphins ,Cardinals ,Dome ,DOME ,7m SSW 
+9,Saints ,Buccaneers ,Npartly-cloudy-night ,77f Mostly Cloudy ,13m NE 
+9,Patriots ,Jets ,Nclear-night ,60f Clear ,3m SSW 
+10,Colts ,Titans ,Nclear-night ,52f Clear ,3m N 
+10,Eagles ,Giants ,Partly-cloudy-day ,55f Partly Cloudy ,13m SSE 
+10,Jaguars ,Packers ,Rain ,37f Light Rain and Windy ,24m W 
+10,Washington ,Lions ,Dome ,DOME ,23m SW 
+10,Texans ,Browns ,Partly-cloudy-day ,59f Partly Cloudy ,16m SSW 
+10,Buccaneers ,Panthers ,Partly-cloudy-day ,66f Mostly Cloudy ,12m SSW 
+10,Chargers ,Dolphins ,Clear-day ,83f Humid ,6m ESE 
+10,Broncos ,Raiders ,Dome ,DOME ,4m ENE 
+10,Bills ,Cardinals ,Dome ,DOME ,2m S 
+10,Bengals ,Steelers ,Partly-cloudy-day ,56f Mostly Cloudy ,8m W 
+10,49ers ,Saints ,Dome ,DOME ,12m N 
+10,Seahawks ,Rams ,Dome ,DOME ,3m WSW 
+10,Ravens ,Patriots ,Npartly-cloudy-night ,50f Mostly Cloudy ,12m SSE 
+10,Vikings ,Bears ,Nclear-night ,43f Clear ,8m SW 
+11,Cardinals ,Seahawks ,Npartly-cloudy-day ,47f Partly Cloudy ,9m S 
+11,Bengals ,Washington ,Partly-cloudy-day ,54f Mostly Cloudy ,7m E 
+11,Falcons ,Saints ,Dome ,DOME ,5m NNE 
+11,Steelers ,Jaguars ,Partly-cloudy-day ,71f Partly Cloudy ,7m NNE 
+11,Patriots ,Texans ,Partly-cloudy-day ,74f Partly Cloudy ,2m NNE 
+11,Eagles ,Browns ,Rain ,37f Light Rain ,5m NNE 
+11,Lions ,Panthers ,Partly-cloudy-day ,61f Mostly Cloudy ,2m ESE 
+11,Titans ,Ravens ,Partly-cloudy-day ,51f Mostly Cloudy ,7m E 
+11,Jets ,Chargers ,Dome ,DOME ,4m SW 
+11,Dolphins ,Broncos ,Fog ,44f Foggy ,3m WSW 
+11,Packers ,Colts ,Dome ,DOME ,10m NNW 
+11,Cowboys ,Vikings ,Dome ,DOME ,10m NW 
+11,Chiefs ,Raiders ,Dome ,DOME ,1m ESE 
+11,Rams ,Buccaneers ,Nclear-night ,69f Clear ,4m N 
+12,Texans ,Lions ,Dome ,DOME ,10m W 
+12,Washington ,Cowboys ,Clear-day ,71f Clear ,9m S 
+12,Dolphins ,Jets ,Clear-day ,51f Clear ,3m SW 
+12,Cardinals ,Patriots ,Clear-day ,49f Clear ,5m SW 
+12,Panthers ,Vikings ,Dome ,DOME ,15m NW 
+12,Browns ,Jaguars ,Partly-cloudy-day ,68f Mostly Cloudy ,1m NE 
+12,Titans ,Colts ,Dome ,DOME ,5m SSW 
+12,Giants ,Bengals ,Partly-cloudy-day ,46f Partly Cloudy ,4m SSE 
+12,Chargers ,Bills ,Clear-day ,46f Clear ,11m SW 
+12,Raiders ,Falcons ,Dome ,DOME ,4m SE 
+12,49ers ,Rams ,Dome ,DOME ,1m WSW 
+12,Saints ,Broncos ,Fog ,38f Foggy ,3m NW 
+12,Chiefs ,Buccaneers ,Clear-day ,80f Clear ,6m SSW 
+12,Bears ,Packers ,Npartly-cloudy-night ,35f Partly Cloudy ,13m NW 
+12,Seahawks ,Eagles ,Npartly-cloudy-night ,60f Mostly Cloudy ,7m SSW 
+12,Ravens ,Steelers ,Partly-cloudy-day ,37f Partly Cloudy ,5m WSW 
+13,Browns ,Titans ,Partly-cloudy-day ,47f Partly Cloudy ,2m S 
+13,Raiders ,Jets ,Clear-day ,39f Clear ,13m NW 
+13,Jaguars ,Vikings ,Dome ,DOME ,4m WNW 
+13,Bengals ,Dolphins ,Partly-cloudy-day ,80f Partly Cloudy ,3m SE 
+13,Colts ,Texans ,Clear-day ,54f Clear ,3m NW 
+13,Lions ,Bears ,Cloudy ,35f Overcast ,3m ENE 
+13,Saints ,Falcons ,Dome ,DOME ,3m SW 
+13,Giants ,Seahawks ,Cloudy ,51f Overcast ,8m S 
+13,Rams ,Cardinals ,Dome ,DOME ,2m SE 
+13,Patriots ,Chargers ,Dome ,DOME ,4m WSW 
+13,Eagles ,Packers ,Partly-cloudy-day ,34f Mostly Cloudy ,6m WSW 
+13,Broncos ,Chiefs ,Nclear-night ,38f Clear ,6m NNW 
+13,Washington ,Steelers ,Cloudy ,33f Overcast ,11m N 
+13,Bills ,49ers ,Nclear-day ,68f Clear ,6m NNW 
+13,Cowboys ,Ravens ,Nclear-night ,37f Clear ,11m WNW 
+14,Patriots ,Rams ,Dome ,DOME ,4m S 
+14,Vikings ,Buccaneers ,Partly-cloudy-day ,75f Partly Cloudy ,4m SSE 
+14,Cardinals ,Giants ,Partly-cloudy-day ,59f Partly Cloudy ,10m W 
+14,Chiefs ,Dolphins ,Clear-day ,80f Clear ,5m SE 
+14,Titans ,Jaguars ,Partly-cloudy-day ,66f Mostly Cloudy ,1m N 
+14,Cowboys ,Bengals ,Cloudy ,44f Overcast ,1m ENE 
+14,Texans ,Bears ,Partly-cloudy-day ,30f Mostly Cloudy ,3m WSW 
+14,Broncos ,Panthers ,Partly-cloudy-day ,64f Partly Cloudy ,5m WSW 
+14,Jets ,Seahawks ,Cloudy ,41f Overcast ,6m SSE 
+14,Colts ,Raiders ,Dome ,DOME ,4m ENE 
+14,Packers ,Lions ,Dome ,DOME ,4m WSW 
+14,Washington ,49ers ,Dome ,DOME ,7m NE 
+14,Saints ,Eagles ,Clear-day ,56f Clear ,9m NW 
+14,Falcons ,Chargers ,Dome ,DOME ,2m NE 
+14,Steelers ,Bills ,Ncloudy ,31f Overcast ,6m W 
+14,Ravens ,Browns ,Npartly-cloudy-night ,34f Mostly Cloudy ,12m NW 
+15,Chargers ,Raiders ,Dome ,DOME ,11m SW 
+15,Bills ,Broncos ,Fog ,46f Foggy ,12m W 
+15,Panthers ,Packers ,Ncloudy ,30f Overcast ,2m W 
+15,Seahawks ,Washington ,Cloudy ,40f Overcast ,9m SSW 
+15,Bears ,Vikings ,Dome ,DOME ,5m W 
+15,Patriots ,Dolphins ,Partly-cloudy-day ,79f Partly Cloudy ,9m S 
+15,Jaguars ,Ravens ,Cloudy ,41f Overcast ,7m SSW 
+15,Buccaneers ,Falcons ,Dome ,DOME ,3m SSW 
+15,49ers ,Cowboys ,Clear-day ,52f Clear ,5m WNW 
+15,Lions ,Titans ,Cloudy ,45f Overcast ,4m WSW 
+15,Texans ,Colts ,Dome ,DOME ,9m WSW 
+15,Eagles ,Cardinals ,Dome ,DOME ,1m SSW 
+15,Jets ,Rams ,Dome ,DOME ,2m WSW 
+15,Chiefs ,Saints ,Dome ,DOME ,8m NNE 
+15,Browns ,Giants ,Ncloudy ,34f Overcast ,1m SE 
+15,Steelers ,Bengals ,Npartly-cloudy-night ,43f Partly Cloudy ,9m WSW 
+16,Vikings ,Saints ,Dome ,DOME ,8m NNW 
+16,Buccaneers ,Lions ,Dome ,DOME ,12m WSW 
+16,49ers ,Cardinals ,Dome ,DOME ,2m SE 
+16,Dolphins ,Raiders ,Dome ,DOME ,2m NE 
+16,Panthers ,Washington ,Clear-day ,36f Clear ,3m SSE 
+16,Colts ,Steelers ,Partly-cloudy-day ,59f Partly Cloudy ,6m NE 
+16,Falcons ,Chiefs ,Clear-day ,49f Clear ,10m W 
+16,Bears ,Jaguars ,Clear-day ,54f Clear ,7m SE 
+16,Bengals ,Texans ,Partly-cloudy-day ,67f Partly Cloudy ,12m S 
+16,Giants ,Ravens ,Clear-day ,34f Clear ,3m SSE 
+16,Browns ,Jets ,Clear-day ,34f Clear ,4m SW 
+16,Broncos ,Chargers ,Dome ,DOME ,1m ENE 
+16,Rams ,Seahawks ,Cloudy ,46f Overcast ,3m NE 
+16,Eagles ,Cowboys ,Clear-day ,74f Clear ,10m W 
+16,Titans ,Packers ,Nsnow ,27f Snow ,13m N 
+16,Bills ,Patriots ,Nclear-night ,41f Clear ,5m SW 
+17,Falcons ,Buccaneers ,Cloudy ,64f Overcast ,5m NNW 
+17,Cowboys ,Giants ,Cloudy ,34f Overcast ,8m NE 
+17,Jets ,Patriots ,Cloudy ,33f Overcast ,5m NE 
+17,Vikings ,Lions ,Dome ,DOME ,2m S 
+17,Steelers ,Browns ,Cloudy ,38f Overcast ,5m W 
+17,Ravens ,Bengals ,Cloudy ,38f Overcast ,8m W 
+17,Dolphins ,Bills ,Cloudy ,33f Overcast ,5m SSW 
+17,Jaguars ,Colts ,Dome ,DOME ,7m W 
+17,Titans ,Texans ,Clear-day ,66f Clear ,8m SSW 
+17,Chargers ,Chiefs ,Partly-cloudy-day ,36f Mostly Cloudy ,4m S 
+17,Packers ,Bears ,Cloudy ,32f Overcast ,6m WSW 
+17,Saints ,Panthers ,Partly-cloudy-day ,55f Mostly Cloudy ,5m NNW 
+17,Seahawks ,49ers ,Partly-cloudy-day ,55f Mostly Cloudy ,2m NNW 
+17,Cardinals ,Rams ,Dome ,DOME ,3m SSE 
+17,Raiders ,Broncos ,Fog ,54f Foggy ,7m SW 
+17,Washington ,Eagles ,Ncloudy ,37f Overcast ,6m NNE 
