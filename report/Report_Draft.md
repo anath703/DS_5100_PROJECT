@@ -16,6 +16,12 @@ We found the best way to extract the data was to create a web scraper to scrape 
 
 The first step in cleaning the data was removing any games that were played in the playoffs and Superbowl. We were only interested in looking at data for the regular season because in a playoff matchup, the team with the better record is usually awarded the ability to play at home. This introduces bias in team strengths between the home and away team that doesn’t exist in the regular season. Next, we had to determine in each matchup which team was home and which team was away. The raw data has a column that has an @ symbol if the team in the “Winner/Tie” column was away and an empty string if the team in the “Loser/Tie” column was at home. Finally, we converted the “Date” column to a datetime format.
 
+2. Geographical and Stadium Type Data
+
+To analyze if distance traveled by teams played an impact on the home-field advantage obtained by teams, we obtained the longitude and latitude of all stadiums that had NFL stadiums played in them since 2000. This includes the now defunct stadiums of many of the teams that have changed locations. Further, we obtained the altitude of each stadium to see if there were impacts from the elevation of stadiums. Lastly, NFL stadiums can be open (no roof), closed (dome), or have a retractible roof and wanted to see how this variable affected our response variable. 
+
+Once this data was obtained, it needed to be cleaned by assuring that teams that have moved (St. Louis Rams / Los Angeles Rams) or have their name changed (Washington Redskins / Washington Football Team) have the correct longitude and latitude associated with them. Next, we needed to actually calculate the distance between the two coordinates of the stadiums. To do this, we leveraged the haversine formula for calculating distance and created a function from two sets of coordinates passed in. 
+
 
 ![](/Users/anoopnath/Desktop/MSDS/DS_5100/Project/pfr.png?raw=true "Title")
 
