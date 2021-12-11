@@ -25,7 +25,9 @@ No data set existed that accurately displayed this geographic data needed. We ha
 
 Once this data was obtained, it needed to be cleaned by assuring that teams that have moved (St. Louis Rams / Los Angeles Rams) or have their name changed (Washington Redskins / Washington Football Team) have the correct longitude and latitude associated with them. Next, we needed to actually calculate the distance between the two coordinates of the stadiums. To do this, we leveraged the haversine formula for calculating distance and created a function from two sets of coordinates passed in. 
 
+3. Weather Data
 
+We also wanted to determine if weather affected home-field advantage. For the data source, we used www.nflweather.com, which keeps detailed records of weather in each NFL game over the past several seasons. Since the weather data does not go back to 2000, we decided to take the most recent complete season (2020) as our data set. As an example of our data cleaning, we split the “Temperature” column to extract the number before the letter “F” (Fahrenheit). We then used the home team in each game to merge this data with our main data set. This gave us three additional pieces of information for each game: temperature, wind speed, and weather conditions (14 possible descriptions).
 
 ## Beyond the original specifications: Highlight clearly what things you did that went beyond the original specifications. 
 
@@ -82,10 +84,16 @@ After drilling down to the team level data, our previous findings of a reduced h
 
 One commonly held belief amongst fans is that the longer the distance that an away team must travel for their game, the worse they perform. To see if this is true, we first looked at the average home field advantage by distance travelled in miles by the away team. As seen in the top left chart, the average home-field advantage was the greatest when the away team traveled 1,500 to 2,000 miles, followed by 2,000 or more miles. A similar pattern can be seen when looking at yards differential (top right chart), which is measured as the yards gained by the home team minus the yards gained by the away team. Fianlly, when looking at turnover differential, teams that had to travel 1,000 miles or more averaged 0.1 turnovers than the home team. On the other hand, that differential shrunk to less than 0.03 for teams that travelled less than 1,000 miles. We can see from these charts that team that travel a longer distance for thier game do tend to perform worse.
 
+Finally, we turned to analyzing the effects of weather on home-field advantage. Using the lm function in R, we attempted to explain point differential as a function of two quantitative variables (temperature, wind speed) and 14 categorical variables (weather conditions). As seen below, neither of the quantitative variables was statistically significant at any level. Of the various categorical variables, only one was significant at the 95% confidence level: fog. Specifically, fog seemed to significantly help the away team, a somewhat unexpected result. We have serious misgivings about this result. First, there were only 7 games with fog, which is a small sub-sample. Second, a 95% confidence level implies that 1 in 20 tested variables will be significant by accident, and we had a total of 16 tested variables. It seems entirely possible that fog was simply the “lucky” variable.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/weatherModel.png">
+</p>
+
 ## Testing: Describe what testing you did. Describe the unit tests that you wrote.
 
 * Describe unit tests for functions to pull a given teams home field advantage (whether that be the last 20 years or one year) which we can actually create later.
 
 ## Conclusions: 
 
-* Conclusions
+Our research has established three findings: home field advantage exists in the NFL, it has declined noticeably in the past two seasons, and the reasons for its existence (and decline) remain obscure. While the last finding is not very satisfactory, it points the way to future research on this subject. We chose several explanatory variables that we though could be related to home-field advantage, but there are many other possible choices, including: fan attendance, noise level inside a stadium, more granular weather data, etc. These variables will likely be more difficult to obtain, but they may shed light on the subject. In particular, they may help explain one of our most puzzling findings: that home-field advantage dropped precipitously in 2019, the year before the COVID-impacted 2020 season. Recently legalized sports betting markets may also add useful information, as markets aggregate the views of their participants and are often more accurate than most individual predictions. Finally, the 2021 season will add the most current data possible once it concludes in February of 2022. With so many possible avenues of investigation, home-field advantage in the NFL will likely remain an area of study for the foreseeable future.
