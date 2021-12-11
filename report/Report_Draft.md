@@ -81,10 +81,10 @@ After drilling down to the team level data, our previous findings of a reduced h
 
 <p float="left">
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/hfa_dist.png">
-  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">  
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/yards_dist.png">  
 </p>
 <p align="center">
-  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/yards_dist.png">
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">
 </p>
 
 One commonly held belief amongst fans is that the longer the distance that an away team must travel for their game, the worse they perform. To see if this is true, we first looked at the average home field advantage by distance travelled in miles by the away team. As seen in the top left chart, the average home-field advantage was the greatest when the away team traveled 1,500 to 2,000 miles, followed by 2,000 or more miles. A similar pattern can be seen when looking at yards differential (top right chart), which is measured as the yards gained by the home team minus the yards gained by the away team. Fianlly, when looking at turnover differential, teams that had to travel 1,000 miles or more averaged 0.1 turnovers than the home team. On the other hand, that differential shrunk to less than 0.03 for teams that travelled less than 1,000 miles. We can see from these charts that team that travel a longer distance for thier game do tend to perform worse.
