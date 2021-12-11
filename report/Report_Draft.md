@@ -31,11 +31,8 @@ The first step in cleaning the data was removing any games that were played in t
 
 ## Beyond the original specifications: Highlight clearly what things you did that went beyond the original specifications. 
 
-* Describe process of scraping, manually collecting data on location/weather/stadium descriptions
+The best way to obtain the data we needed was by creating a scraper to extract the game log data from every game starting from the 2000 season to the end of the 2020 season. The website had a different url with the data for each season. For example, the data for the 2019 NFL season was in https://www.pro-football-reference.com/years/2019/games.htm. Therefore, we looped from 2000 to 2020 in our scraper to access each of the season urls and extract the data needed. We identified the html tags needed and used BeautifulSoup to extract the text and stored it as a list of rows. We then looped through this list and stored the data as a csv file.
 
-* Discuss user interaction portion (not done yet) where a user can request a specific teams home field advantage for a given year or range of years. 
-
-* Also include an advanced queries (from rubric not sure what we would put here)
 
 ## Results: Display and discuss the results.
 
