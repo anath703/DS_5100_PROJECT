@@ -12,6 +12,14 @@ With the plethora of possibilities explaining the home-field advantage that team
 
 * How was the data structure stored (csv files read into pandas data frames)
 
+Our data comes from three different sources:
+
+1. NFL Game Log from Pro Football Reference
+
+We chose to get our game log data from Pro Football Reference, which has game log data for every NFL football game played going back to the 1950s. A sample of the game logs from the 2020 season can be seen below. Since the NFL has changed drastically over the decades, we wanted to stick with more recent data and were only interested in data from the 2000 season through the 2020 season. Within the game log, we wanted to extract the following information: Team Names, Scores, Yards Gained, Turnovers, and which team was playing at home. 
+
+![](/Users/anoopnath/Desktop/MSDS/DS_5100/Project/pfr.png?raw=true "Title")
+
 ## Experimental Design: Describe briefly your process
 
 * Process of choosing our data and setting goals?
