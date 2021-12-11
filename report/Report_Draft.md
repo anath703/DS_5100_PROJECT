@@ -42,7 +42,15 @@ The best way to obtain the data we needed was by creating a scraper to extract t
 
 ![](avg_homefield_adv.png)
 
-![](visualizations/box_dist_point_diff.png)
+![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/box_dist_point_diff.png)
+
+![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2000_2004_bar_point_diff.png)
+
+![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2005_2010_bar_point_diff.png)
+
+![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2011_2015_bar_point_diff.png)
+
+![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2016_2020_bar_point_diff.png)
 
 ## Testing: Describe what testing you did. Describe the unit tests that you wrote.
 
