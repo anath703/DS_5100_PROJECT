@@ -40,7 +40,7 @@ Conventional wisdom amongst football fans and betting enthusiasts is that home f
 
 ## Results: Display and discuss the results.
 
-Even though the average home-field advantage is 2.37 points for all seasons, there have been large fluctuations in the average for each season. We can see in the chart below that home-field advantage decreased from 2000 to 2018 season before plunging close to zero for the 2019 and 2020 seasons. The 2020 season could be considered an outlier due to the fact that teams played at home with no or limited fans and the fact that many teams were without key players for some or all of the season due to COVID-19 restrictions. However, it is not clear why homefield advantage was close to zero for the 2019 season. 
+Even though the average home-field advantage is 2.37 points for all seasons, there have been large fluctuations in the average for each season. We can see in the chart below that home-field advantage decreased from 2000 to 2018 season before plunging close to zero for the 2019 and 2020 seasons. The 2020 season could be considered an anomaly due to the fact that teams played at home with no or limited fans and the fact that many teams were without key players for some or all of the season due to COVID-19 restrictions. However, it is not clear why homefield advantage was close to zero for the 2019 season. 
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/avg_homefield_adv.png">
