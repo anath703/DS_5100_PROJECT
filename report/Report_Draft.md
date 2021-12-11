@@ -44,15 +44,29 @@ The best way to obtain the data we needed was by creating a scraper to extract t
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/avg_homefield_adv.png">
 </p>
 
-![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/box_dist_point_diff.png)
+<p align="center">
+  We wanted to look at the distribution of the home-field advantage for each of the NFL teams in 5 season/year periods. This would allow us to determine if the home-field advantage is growing over the last 20 seasons which we are analyzing. As can be seen in the last box plot, the home-field advantage has drastically gotten smaller compared to the earlier portions of our data. This confirms what can be seen in the line plot above where the drop off is visualized in the 2019 season and continued in 2020. Not only is the median home-field advantage lower in this last box plot but there seems to also be less teams that have large home-field advantages. 
+</p>
 
-![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2000_2004_bar_point_diff.png)
+<p align="center">
+  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/box_dist_point_diff.png">
+</p>
 
-![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2005_2010_bar_point_diff.png)
+<p align="center">
+  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2000_2004_bar_point_diff.png">
+</p>
 
-![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2011_2015_bar_point_diff.png)
+<p align="center">
+  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2005_2010_bar_point_diff.png">
+</p>
 
-![](https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2016_2020_bar_point_diff.png)
+<p align="center">
+  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2011_2015_bar_point_diff.png">
+</p>
+
+<p align="center">
+  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2016_2020_bar_point_diff.png">
+</p>
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/hfa_dist.png">
