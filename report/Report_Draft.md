@@ -1,8 +1,9 @@
 ## Introduction
 
-An age-old sentiment amongst fans of the NFL (and other major sports) is that the home-team possesses a benefit from playing at home versus the visiting team. This benefit can possibly be traced back to many factors such as the fact that the visiting team has to travel or the home team having more support of their fans in a friendly environment. It could even be as simple as being on the field that the team is most familiar with. 
+An age-old sentiment amongst NFL fants (and other major sports) is that the home-team possesses a benefit from playing at home versus the visiting team. 
+Potential sources for this benefit include: the fact that the visiting team has to travel, familiarity with the field/stadium for the home team, and crowd noice.
 
-With the plethora of possibilities explaining the home-field advantage that teams possess, it needed to be investigated if an advantage even actually exists and to what extent it may exist. Convential wisdom amongst football and fans and betting enthusisats is that home-field avantange is worth three points. A historical analysis of the outcomes of games (win/loss) along with associated factors in the outcomes (points scored, yards gained, turnovers committed, etc.) will sufficiently help to determine if a home-field advantage exists. Further, the definition used for home-field advantage will be the **points scored by the home team minus the points scored by the away team.**  
+With the plethora of possibilities explaining the home-field advantage that teams possess, it needed to be investigated if an advantage even actually exists and to what extent it may exist. Convential wisdom amongst football and fans and betting enthusisats is that home-field avantange is worth three points. A historical analysis of the outcomes of games (win/loss) along with associated factors in the outcomes (points scored, yards gained, turnovers committed, etc.) will sufficiently help to determine if a home-field advantage exists and if so how much. Further, the definition used for home-field advantage will be the **points scored by the home team minus the points scored by the away team.**  
 
 ## The Data
 
