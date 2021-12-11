@@ -28,7 +28,7 @@ Once this data was obtained, it needed to be cleaned by assuring that teams that
 
 ## Beyond the original specifications: Highlight clearly what things you did that went beyond the original specifications. 
 
-The best way to obtain the data we needed was by creating a scraper to extract the game log data from every game starting from the 2000 season to the end of the 2020 season. The website had a different url with the data for each season. For example, the data for the 2019 NFL season was in https://www.pro-football-reference.com/years/2019/games.htm. Therefore, we looped from 2000 to 2020 in our scraper to access each of the season urls and extract the data needed. We identified the html tags needed and used BeautifulSoup to extract the text and stored it as a list of rows. We then looped through this list and stored the data as a csv file.
+The best way to obtain game log data was by creating a scraper to the website pro-football-reference and extract the game log data from every game starting from the 2000 season to the end of the 2020 season. The website had a different url with the data for each season. For example, the data for the 2019 NFL season was in https://www.pro-football-reference.com/years/2019/games.htm. Therefore, we looped from 2000 to 2020 in our scraper to access each of the season urls and extract the data needed. We identified the html tags needed and used BeautifulSoup to extract the text and stored it as a list of rows. We then looped through this list and stored the data as a csv file.
 
 
 ## Experimental Design: Describe briefly your process
