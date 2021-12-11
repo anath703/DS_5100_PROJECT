@@ -1,7 +1,7 @@
 ## Introduction
 
 An age-old sentiment amongst NFL fans (and other major sports) is that the home-team possesses a benefit from playing at home versus the visiting team. 
-Potential sources for this benefit include: the fact that the visiting team has to travel, familiarity with the field/stadium for the home team, and crowd noice.
+Potential sources for this benefit include: the fact that the visiting team has to travel, familiarity with the field/stadium for the home team, and crowd noise.
 
 With the plethora of possibilities explaining the home-field advantage that teams possess, it needed to be investigated if an advantage even actually exists and to what extent it may exist. Convential wisdom amongst football and fans and betting enthusisats is that home-field avantange is worth three points. A historical analysis of the outcomes of games (win/loss) along with associated factors in the outcomes (points scored, yards gained, turnovers committed, etc.) will sufficiently help to determine if a home-field advantage exists and if so how much. Further, the definition used for home-field advantage will be the **points scored by the home team minus the points scored by the away team.**  
 
