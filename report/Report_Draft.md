@@ -78,14 +78,11 @@ Once we examined the home-field advantage at a league level across the groups of
 After drilling down to the team level data, our previous findings of a reduced home-field advantage were confirmed yet again. As can be demonstrated by the y-axis in the last bar chart of the 2016-2020 seasons, the range of point differential is considerably lower than the previous groupings of seasons. Another finding that was quite interesting was that the teams with the highest difference in point differential at home vs. away weren't always the best teams in the league. For example, in the first bar chart, the Minnesota Vikings held the highest difference which makes sense considering the early 2000s Vikings teams were contenders and had potent offenses. However, in the last bar chart, the New York Jets had the highest margin betwen point differential even though they have been one of the most putrid teams in the league. Although this causes some raised eyebrows, it is an outcome of our analysis since we have not adjusted the home-field advantage for team strength (ex. applying weights to the teams based off of winning % so that point differentials account for beating bad teams and beating good teams). These graphs do not say which teams are the best but rather which teams perform better from a point differential standpoint at home vs. away.
 </p>
 
-<p align="center">
+
+<p float="left">
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/hfa_dist.png">
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">  
 </p>
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">
-</p>
-
 <p align="center">
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/yards_dist.png">
 </p>
