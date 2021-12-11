@@ -1,6 +1,8 @@
-## Introduction: Describe your project scenario
+## Introduction
 
-* What we have in our project proposal
+An age-old sentiment amongst fans of the NFL (and other major sports) is that the home-team possesses a benefit from playing at home vs. the visiting team. Amongst the sports gambling world, sportsbooks set the advantage at 3 points for evenly matched teams. This benefit can possibly be traced back to many factors such as the fact that the visiting team has to travel or the home team having more support of their fans in a friendly environment. It could even be as simple as being on the field that the team is most familiar with. 
+
+With the plethora of possibilities explaining the home-field advantage that teams possess, it needed to be investigated if an advantage even actually exists and to what extent it may exist. A historical analysis of the outcomes of games (win/loss) along with associated factors in the outcomes (points scored, yards gained, turnovers committed, etc.) will sufficiently help to determine if a home-field advantage exists. Further, the definition used for home-field advantage will be the **points scored by the home team - the points scored by the away team.**  
 
 ## The Data: Describe your data set and its significance. 
 
