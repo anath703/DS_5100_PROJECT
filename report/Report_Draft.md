@@ -58,20 +58,13 @@ Even though the average home-field advantage is 2.37 points for all seasons, the
 Once we examined the home-field advantage at a league level across the groups of seasons, it was important to look at the next level of the data which is on a team to team basis. When looking at a team to team basis, we wanted to see the point differential for teams at home minus the point differential for teams away because this would truly express how much more advantageous it is to play in your home stadium from a point differential standpoint.
 </p>
 
-<p align="center">
-  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2000_2004_bar_point_diff.png">
+<p float="left">
+  <img width="480" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2000_2004_bar_point_diff.png">
+  <img width="480" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2005_2010_bar_point_diff.png">
 </p>
-
 <p align="center">
-  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2005_2010_bar_point_diff.png">
-</p>
-
-<p align="center">
-  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2011_2015_bar_point_diff.png">
-</p>
-
-<p align="center">
-  <img width="560" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2016_2020_bar_point_diff.png">
+    <img width="480" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2011_2015_bar_point_diff.png">
+    <img width="480" height="400" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/2016_2020_bar_point_diff.png">
 </p>
 
 <p align="left">
@@ -84,8 +77,10 @@ After drilling down to the team level data, our previous findings of a reduced h
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/yards_dist.png">  
 </p>
 <p align="center">
-  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">  
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">
 </p>
+
+One commonly held belief amongst fans is that the longer the distance that an away team must travel for their game, the worse they perform. To see if this is true, we first looked at the average home field advantage by distance travelled in miles by the away team. As seen in the top left chart, the average home-field advantage was the greatest when the away team traveled 1,500 to 2,000 miles, followed by 2,000 or more miles. A similar pattern can be seen when looking at yards differential (top right chart), which is measured as the yards gained by the home team minus the yards gained by the away team. Fianlly, when looking at turnover differential, teams that had to travel 1,000 miles or more averaged 0.1 turnovers than the home team. On the other hand, that differential shrunk to less than 0.03 for teams that travelled less than 1,000 miles. We can see from these charts that team that travel a longer distance for thier game do tend to perform worse.
 
 ## Testing: Describe what testing you did. Describe the unit tests that you wrote.
 
