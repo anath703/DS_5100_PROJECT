@@ -25,16 +25,15 @@ No data set existed that accurately displayed this geographic data needed. We ha
 Once this data was obtained, it needed to be cleaned by assuring that teams that have moved (St. Louis Rams / Los Angeles Rams) or have their name changed (Washington Redskins / Washington Football Team) have the correct longitude and latitude associated with them. Next, we needed to actually calculate the distance between the two coordinates of the stadiums. To do this, we leveraged the haversine formula for calculating distance and created a function from two sets of coordinates passed in. 
 
 
-![](/Users/anoopnath/Desktop/MSDS/DS_5100/Project/pfr.png?raw=true "Title")
-
-## Experimental Design: Describe briefly your process
-
-* Process of choosing our data and setting goals?
 
 ## Beyond the original specifications: Highlight clearly what things you did that went beyond the original specifications. 
 
 The best way to obtain the data we needed was by creating a scraper to extract the game log data from every game starting from the 2000 season to the end of the 2020 season. The website had a different url with the data for each season. For example, the data for the 2019 NFL season was in https://www.pro-football-reference.com/years/2019/games.htm. Therefore, we looped from 2000 to 2020 in our scraper to access each of the season urls and extract the data needed. We identified the html tags needed and used BeautifulSoup to extract the text and stored it as a list of rows. We then looped through this list and stored the data as a csv file.
 
+
+## Experimental Design: Describe briefly your process
+
+Once we had our cleaned data in a pandas dataframe, we calculated homefield advantage as the spread between points scored by the home team minus the points scored by the away team. We found that the average homefield advantage for all regular season games between the 2000 and 2020 season was 2.37 points with a standard deviation of 14.70. This falls in line with conventional wisdom amongst football fans that homefield advantage is worth around 3 points. We then conducted a one-sample t-test with the null hypothesis that the average home field advantage is 0 versus the alternative hypothesis that the average is greater than 0. The resulting p-value was 1.71e-33, leading us to reject the null hypothesis and concluding that home-field advantage does exist in the NFL.
 
 ## Results: Display and discuss the results.
 
