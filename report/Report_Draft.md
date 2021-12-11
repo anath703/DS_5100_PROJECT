@@ -6,12 +6,6 @@ With the plethora of possibilities explaining the home-field advantage that team
 
 ## The Data: Describe your data set and its significance. 
 
-* Data scraped/collected from where
-
-* One large data frame created from different sets of data, allowing easy access to data cleaning and analysis
-
-* How was the data structure stored (csv files read into pandas data frames)
-
 Our data comes from three different sources:
 
 1. NFL Game Log from Pro Football Reference
