@@ -89,7 +89,7 @@ One commonly held belief amongst fans is that the longer the distance that an aw
 When looking at building multiple linear regression models for homefield advantage there are a few variables that we found to be more indicative than others. As far as significance, we saw distance as the most accurate identifier of the overall trend we would expect to see impact the point differentials between teams at home and away. The following scatterplot shows the linear regression model including just the distance variable against the actual distribution of individual variables.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/pointDiffDistanceScatter.png">
 </p>
 
 Though there does appear to be a gradually increasing advantage based on the distance between the teams, there is also extremely high variance and ultimately our ability to predict the value of a given teams homefield advantage using distance is innacurate. This lead us to consider other potential variables such as differences in altitude, latitude and longitude individually, and the type of stadium the teams play in. Ultimately these variables run into the same issue as distance, where the variance is so high that they are not particularly valuable for predicting individual games and are more useful as indicators for an overall trend.
@@ -97,7 +97,7 @@ Though there does appear to be a gradually increasing advantage based on the dis
 Finally, we turned to analyzing the effects of weather on home-field advantage. Using the lm function in R, we attempted to explain point differential as a function of two quantitative variables (temperature, wind speed) and 14 categorical variables (weather conditions). As seen below, neither of the quantitative variables was statistically significant at any level. Of the various categorical variables, only one was significant at the 95% confidence level: fog. Specifically, fog seemed to significantly help the away team, a somewhat unexpected result. We have serious misgivings about this result. First, there were only 7 games with fog, which is a small sub-sample. Second, a 95% confidence level implies that 1 in 20 tested variables will be significant by accident, and we had a total of 16 tested variables. It seems entirely possible that fog was simply the “lucky” variable.
 
 <p align="center">
-  <img width="460" height="600" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/weatherModel.png">
+  <img width="550" height="600" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/weatherModel.png">
 </p>
 
 In an attempt to find the best model, we used backwards elimination on a full model including all of these variables and it eliminated everything but distance, leading us to believe that this is the most accurate model, though we have already determined that it is not. Likely what is occuring is that because for calculating the homefield advantage using distance and other similar variables, there are many confounding variables for determining the point difference between the teams which are not considered. The high variance may be attributed to general skill levels of the teams playing, players involved, and other significantly more impactful variables that are not necessarily tied to homefield advantage, though for thew scope of this project we did not include those.
