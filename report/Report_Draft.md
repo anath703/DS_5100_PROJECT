@@ -33,6 +33,8 @@ We also wanted to determine if weather affected home-field advantage. For the da
 
 The best way to obtain game log data was by creating a scraper to the website pro-football-reference and extract the game log data from every game starting from the 2000 season to the end of the 2020 season. The website had a different url with the data for each season. For example, the data for the 2019 NFL season was in https://www.pro-football-reference.com/years/2019/games.htm. Therefore, we looped from 2000 to 2020 in our scraper to access each of the season urls and extract the data needed. We identified the html tags needed and used BeautifulSoup to extract the text and stored it as a list of rows. We then looped through this list and stored the data as a csv file.
 
+We also took the time to create a simple function for calculating any given team's homefield advantage over any given range of years. This function takes user input for which team you would like to see, and what years you would like to calcaulate homefield advantage over. This could be useful for a quick check into a teams given advantage for any specific year, or even a range of years when dealing with more in depth sports analysis or simply looking for patterns.
+
 
 ## Experimental Design: Describe briefly your process
 
@@ -84,15 +86,25 @@ After drilling down to the team level data, our previous findings of a reduced h
 
 One commonly held belief amongst fans is that the longer the distance that an away team must travel for their game, the worse they perform. To see if this is true, we first looked at the average home field advantage by distance travelled in miles by the away team. As seen in the top left chart, the average home-field advantage was the greatest when the away team traveled 1,500 to 2,000 miles, followed by 2,000 or more miles. A similar pattern can be seen when looking at yards differential (top right chart), which is measured as the yards gained by the home team minus the yards gained by the away team. Fianlly, when looking at turnover differential, teams that had to travel 1,000 miles or more averaged 0.1 turnovers than the home team. On the other hand, that differential shrunk to less than 0.03 for teams that travelled less than 1,000 miles. We can see from these charts that team that travel a longer distance for thier game do tend to perform worse.
 
+When looking at building multiple linear regression models for homefield advantage there are a few variables that we found to be more indicative than others. As far as significance, we saw distance as the most accurate identifier of the overall trend we would expect to see impact the point differentials between teams at home and away. The following scatterplot shows the linear regression model including just the distance variable against the actual distribution of individual variables.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/tod_dist.png">
+</p>
+
+Though there does appear to be a gradually increasing advantage based on the distance between the teams, there is also extremely high variance and ultimately our ability to predict the value of a given teams homefield advantage using distance is innacurate. This lead us to consider other potential variables such as differences in altitude, latitude and longitude individually, and the type of stadium the teams play in. Ultimately these variables run into the same issue as distance, where the variance is so high that they are not particularly valuable for predicting individual games and are more useful as indicators for an overall trend.
+
 Finally, we turned to analyzing the effects of weather on home-field advantage. Using the lm function in R, we attempted to explain point differential as a function of two quantitative variables (temperature, wind speed) and 14 categorical variables (weather conditions). As seen below, neither of the quantitative variables was statistically significant at any level. Of the various categorical variables, only one was significant at the 95% confidence level: fog. Specifically, fog seemed to significantly help the away team, a somewhat unexpected result. We have serious misgivings about this result. First, there were only 7 games with fog, which is a small sub-sample. Second, a 95% confidence level implies that 1 in 20 tested variables will be significant by accident, and we had a total of 16 tested variables. It seems entirely possible that fog was simply the “lucky” variable.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/weatherModel.png">
+  <img width="460" height="600" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/weatherModel.png">
 </p>
+
+In an attempt to find the best model, we used backwards elimination on a full model including all of these variables and it eliminated everything but distance, leading us to believe that this is the most accurate model, though we have already determined that it is not. Likely what is occuring is that because for calculating the homefield advantage using distance and other similar variables, there are many confounding variables for determining the point difference between the teams which are not considered. The high variance may be attributed to general skill levels of the teams playing, players involved, and other significantly more impactful variables that are not necessarily tied to homefield advantage, though for thew scope of this project we did not include those.
 
 ## Testing: 
 
-* Describe unit tests for functions to pull a given teams home field advantage (whether that be the last 20 years or one year) which we can actually create later.
+Most of our testing was employed for assuring that the user fed function for calculating any given team's homefield advantage across the years. Basically just assuring that the function would take the correct variables and perform the calculations correctly given the proper inputs. The unit testing did confirm that there was an issue with calculating the team's advantage when fed the same year for both the lower and upper bound, which was then able to be corrected.
 
 ## Conclusions: 
 
