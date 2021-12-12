@@ -29,7 +29,7 @@ Once this data was obtained, it needed to be cleaned by assuring that teams that
 
 We also wanted to determine if weather affected home-field advantage. For the data source, we used www.nflweather.com, which keeps detailed records of weather in each NFL game over the past several seasons. Since the weather data does not go back to 2000, we decided to take the most recent complete season (2020) as our data set. As an example of our data cleaning, we split the “Temperature” column to extract the number before the letter “F” (Fahrenheit). We then used the home team in each game to merge this data with our main data set. This gave us three additional pieces of information for each game: temperature, wind speed, and weather conditions (14 possible descriptions).
 
-## Beyond the original specifications: Highlight clearly what things you did that went beyond the original specifications. 
+## Beyond the original specifications: 
 
 The best way to obtain game log data was by creating a scraper to the website pro-football-reference and extract the game log data from every game starting from the 2000 season to the end of the 2020 season. The website had a different url with the data for each season. For example, the data for the 2019 NFL season was in https://www.pro-football-reference.com/years/2019/games.htm. Therefore, we looped from 2000 to 2020 in our scraper to access each of the season urls and extract the data needed. We identified the html tags needed and used BeautifulSoup to extract the text and stored it as a list of rows. We then looped through this list and stored the data as a csv file.
 
@@ -40,7 +40,7 @@ Once we had our cleaned data in a pandas dataframe, we calculated homefield adva
 
 Conventional wisdom amongst football fans and betting enthusiasts is that home field advantage is around three points in the NFL. We conducted a hypothesis test to test this theory. We ran a one-sample t-test with the null hypothesis that the average home field advantage is equal to three points and an alternative hypothesis that the average advantage did not equal three points. The resulting p-value was 0.0015, leading us to reject the null hypothesis and the conventional wisdom that home field advantage is worth three points. 
 
-## Results: Display and discuss the results.
+## Results:
 
 Even though the average home-field advantage is 2.37 points for all seasons, there have been large fluctuations in the average for each season. We can see in the chart below that home-field advantage decreased from 2000 to 2018 season before plunging close to zero for the 2019 and 2020 seasons. The 2020 season could be considered an anomaly due to the fact that teams played at home with no or limited fans and the fact that many teams were without key players for some or all of the season due to COVID-19 restrictions. However, it is not clear why homefield advantage was close to zero for the 2019 season. 
 
@@ -90,7 +90,7 @@ Finally, we turned to analyzing the effects of weather on home-field advantage. 
   <img width="460" height="300" src="https://github.com/anath703/DS_5100_PROJECT/blob/main/visualizations/weatherModel.png">
 </p>
 
-## Testing: Describe what testing you did. Describe the unit tests that you wrote.
+## Testing: 
 
 * Describe unit tests for functions to pull a given teams home field advantage (whether that be the last 20 years or one year) which we can actually create later.
 
