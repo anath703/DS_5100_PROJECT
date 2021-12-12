@@ -1,3 +1,16 @@
+
+## Analyzing Home-Field Advantage in the NFL (Group 4)
+
+Cepehr Alizadeh (ca3eh)
+
+Seth Harrison (wdv7nu)
+
+Marin Lolic (ejz2sg)
+
+Anoop Nath (nux9aq)
+
+Github: https://github.com/anath703/DS_5100_PROJECT
+
 ## Introduction
 
 An age-old sentiment amongst NFL fans (and other major sports) is that the home-team possesses a benefit from playing at home versus the visiting team. 
